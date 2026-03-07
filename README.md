@@ -36,3 +36,5 @@ I used a Random Forest Classifier to predict next-day profitability based on tod
 | Model Name          | Accuracy | Precision | Recall |
 | :------------------ | :------: | :-------: | :----: |
 | **Random Forest** | **61.8%**| **0.65** | **0.79** |
+
+### Trading Startegy Recommendations
