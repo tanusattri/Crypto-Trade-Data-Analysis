@@ -31,8 +31,8 @@ The analysis merges two primary data streams:
 3. Predictive Modeling: Developed a Random Forest Classifier to predict next-day trader profitability using current sentiment and behavioral "Long Bias" features.
 
 ### Model Performance
+I used a Random Forest Classifier to predict next-day profitability based on today's market sentiment and trading bias. The model achieved a strong recall, indicating it is particularly good at identifying potential winning days.
+
 | Model Name          | Accuracy | Precision | Recall |
 | :------------------ | :------: | :-------: | :----: |
-| Logistic Regression | 58.2%    | 0.56      | 0.52   |
-| Random Forest       | 61.5%    | 0.60      | 0.58   |
-| **XGBoost (Best)** | **63.2%**| **0.62** | **0.61**|
+| **Random Forest** | **61.8%**| **0.65** | **0.79** |
