@@ -22,7 +22,13 @@ The analysis merges two primary data streams:
 ### Key Insights and Visualizations
 1. Market Timing: The "Smart Money" Bias- Our analysis reveals that Long Bias actually peaks during Extreme Fear ($51.1\%$) and hits its lowest point during Extreme Greed ($44.8\%$).
 2. Position Fragmentation (Size vs. Sentiment): Average trade sizes drop by over 60% during Extreme Greed ($3,112$ USD) compared to Fear ($7,816$ USD), indicating "Position Splitting" where traders enter many small FOMO positions rather than calculated large bets.
-3. Segment Durability: Frequent traders maintain an 89.5% win rate during Extreme Greed, significantly outperforming infrequent traders who struggle with high-volatility reversals.
+3. Behavioral Archetypes (K-Means Clustering): Using unsupervised learning, we identified three distinct trader profiles based on their trade frequency, average size, and win rate:
+
+| Archetype | Avg Trade Size | Trade Frequency | Win Rate |
+| :--- | :--- | :--- | :--- |
+| **The Scalper** | Low | Very High | High (Consistency focus) |
+| **The Opportunist** | Medium | Moderate | Variable (Sentiment focus) |
+| **The Whale** | High | Low | High (Conviction focus) |
 
 ### Technical Stack
 1. Data: Pandas, Numpy
